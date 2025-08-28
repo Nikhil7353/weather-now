@@ -50,6 +50,7 @@ npm run dev
 App will run at: [http://localhost:5173/](http://localhost:5173/)
 
 ---
+
 ## 🌍 Deployment
 
 The app is live :[https://weather-iai2y4rh6-nikhil-chavhans-projects.vercel.app](https://weather-iai2y4rh6-nikhil-chavhans-projects.vercel.app)
