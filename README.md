@@ -1,12 +1,63 @@
-# React + Vite
+# 🌤️ Weather Now  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Vite web application that lets users quickly check the **current weather conditions** for any city using the **Open-Meteo API**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features  
+- 🔎 Search for weather by city name  
+- 🌡️ Displays current **temperature** and weather condition  
+- 💨 Shows **wind speed** and direction  
+- ⚠️ Error handling for invalid city or network issues  
+- 📱 Responsive and user-friendly design  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack  
+- **React (Vite)** → Frontend framework  
+- **CSS** → Styling (lightweight custom styles)  
+- **Open-Meteo API** → Public API for geocoding & weather data  
+
+---
+
+## 📂 Project Structure  
+weather-now/
+├─ src/
+│ ├─ App.jsx # Main UI & logic
+│ ├─ api.js # API helper functions
+│ ├─ main.jsx # React entry point
+│ ├─ index.css # Styles
+│ └─ ...
+├─ index.html
+├─ package.json
+└─ README.md
+
+
+---
+
+## ⚡ Getting Started  
+
+### 1️⃣ Clone the repo  
+```bash
+git clone https://github.com/Nikhil7353/weather-now.git
+cd weather-now
+
+### 2️⃣ Install dependencies
+npm install
+
+### 3️⃣ Run development server
+npm run dev
+App will run at: [http://localhost:5173/](http://localhost:5173/)
+
+## 🌍 Deployment
+
+The app is live :[https://weather-iai2y4rh6-nikhil-chavhans-projects.vercel.app](https://weather-iai2y4rh6-nikhil-chavhans-projects.vercel.app)
+
+## 📖 API Reference
+- Geocoding APIhttps://geocoding-api.open-meteo.com/v1/search?name={city}
+- Current Weather API:https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current_weather=true
+
+## 👨‍💻 Author
+
+**Nikhil Chavhan**
+_ GitHub:  [@Nikhil7353](https://github.com/Nikhil7353)
