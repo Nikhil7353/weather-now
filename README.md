@@ -22,15 +22,15 @@ A simple React + Vite web application that lets users quickly check the **curren
 
 ## 📂 Project Structure  
 weather-now/
-├─ src/
-│ ├─ App.jsx # Main UI & logic
-│ ├─ api.js # API helper functions
-│ ├─ main.jsx # React entry point
-│ ├─ index.css # Styles
-│ └─ ...
-├─ index.html
-├─ package.json
-└─ README.md
+- ├─ src/
+- │ ├─ App.jsx # Main UI & logic
+- │ ├─ api.js # API helper functions
+- │ ├─ main.jsx # React entry point
+- │ ├─ index.css # Styles
+- │ └─ ...
+- ├─ index.html
+- ├─ package.json
+- └─ README.md
 
 
 ---
@@ -49,13 +49,19 @@ npm install
 npm run dev
 App will run at: [http://localhost:5173/](http://localhost:5173/)
 
+---
+
 ## 🌍 Deployment
 
 The app is live :[https://weather-iai2y4rh6-nikhil-chavhans-projects.vercel.app](https://weather-iai2y4rh6-nikhil-chavhans-projects.vercel.app)
 
+---
+
 ## 📖 API Reference
 - Geocoding APIhttps://geocoding-api.open-meteo.com/v1/search?name={city}
 - Current Weather API:https://api.open-meteo.com/v1/forecast?latitude={lat}&longitude={lon}&current_weather=true
+
+---
 
 ## 👨‍💻 Author
 
