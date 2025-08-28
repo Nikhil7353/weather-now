@@ -38,7 +38,7 @@ weather-now/
 ## ⚡ Getting Started  
 
 ### 1️⃣ Clone the repo  
-```bash
+
 git clone https://github.com/Nikhil7353/weather-now.git
 cd weather-now
 
