@@ -39,15 +39,15 @@ weather-now/
 
 ### 1️⃣ Clone the repo  
 
-git clone https://github.com/Nikhil7353/weather-now.git
-cd weather-now
+_ git clone https://github.com/Nikhil7353/weather-now.git
+- cd weather-now
 
 ### 2️⃣ Install dependencies
-npm install
+- npm install
 
 ### 3️⃣ Run development server
-npm run dev
-App will run at: [http://localhost:5173/](http://localhost:5173/)
+- npm run dev
+- App will run at: [http://localhost:5173/](http://localhost:5173/)
 
 ---
 
